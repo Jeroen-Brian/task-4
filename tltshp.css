@@ -1,0 +1,178 @@
+
+.menu{
+    border-radius: 15px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    background-color: navy;
+    justify-content: space-between;
+    width: 90%;
+    height: 90px;
+    margin-left: 100px;
+    margin-top: 0%;
+}
+
+.menu-left{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    width: 260px;
+    justify-content: space-between;
+}
+.menu-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    margin-right: 30px;
+}
+
+.ki-services{
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 30px;
+}
+.ki-services:hover{
+    color: orange;
+}
+
+.contact{
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 30px;
+}
+.contact:hover{
+    color: orange;
+}
+
+.book_exp{
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border-top: 20px;
+    border-bottom: 20px;
+    text-decoration: none;
+    background-color: orange;
+    color: aliceblue;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.book_exp:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.german{
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 30px;
+}
+.german:hover{
+    color: orange;
+}
+
+
+.tlsp_text_logo{
+    background-color: azure;
+    border-radius: 10px;
+    margin-top: 7px;
+    padding: 0%;
+    width: 90px;
+    height: 70px;
+}
+
+
+
+.info{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.book{
+    text-decoration: none;
+    background-color: orange;
+    font-size: 1.7rem;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-right: 342px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.book:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.sc_cf {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+
+.scale{
+    font-family: "Abril Fatface", sans-serif;
+    display: flex;
+    font-size: 2rem;
+    padding-left: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.hd{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.certification {
+    display: flex;
+    border-radius: 15px; 
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aliceblue;
+    margin-left: 50px;
+}
+img{
+    width: 150px;
+    height: 130px;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    background-image: url("interior-airport-with-windows.jpg");
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+}
